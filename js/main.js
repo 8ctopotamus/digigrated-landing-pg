@@ -95,7 +95,7 @@
 		// });
 
 
-		var end = new Date('11/23/2016 11:00 AM');
+		var end = new Date('11/29/2016 11:00 AM');
 		var now = new Date(new Date().getTime())
 		var difference = end.getDate() - now.getDate()
 
@@ -107,12 +107,29 @@
 	};
 
 
+	var cycleText = function() {
+		var divs = $('div[id^="heading-"]').hide(),
+		i = 0;
+
+		(function cycle() {
+
+		    divs.eq(i).fadeIn(400)
+		              .delay(1300)
+		              .fadeOut(400, cycle);
+
+		    i = ++i % divs.length;
+
+		})();
+	}
+
+
 
 	$(function(){
 		contentWayPoint();
 		loaderPage();
 		screenHeight();
 		countDown();
+		cycleText();
 	});
 
 
