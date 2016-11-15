@@ -112,9 +112,7 @@
 		contentWayPoint();
 		loaderPage();
 		screenHeight();
-
-					countDown();
-		
+		countDown();
 	});
 
 

@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 	@media screen and (max-width: $screen-sm) {
-		background-image: url(../images/working-table.jpg);
+		background-image: url(../images/digi-header.jpg);
 		width: 100%;
 		position: relative;
 		height: 200px;
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	width: 100%;
 	.simply-section {
 		float: left;
-		margin-right: 40px;
+		margin-right: 20px;
 		margin-bottom: 10px;
 		text-align: center;
 		&:last-child {
@@ -288,6 +288,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			padding-right: 150px;
 
 			padding-left: 30px;
+			margin-bottom: 20px;
 
 			border: none!important;
 			background: #eeeeee;
@@ -295,20 +296,21 @@ h1, h2, h3, h4, h5, h6, figure {
 			font-size: 18px;
 		}
 		.btn {
-			width: 100px;
-			position: absolute;
-			right: 0;
-			top: 0;
+			width: 200px;
+			// position: absolute;
+			// right: 0;
+			// top: 0;
 			font-weight: 700;
 			height: 72px;
 			font-size: 14px;
 			color: $brand-white;
 			border: none!important;
+			border-radius: 100px;
 			background: $brand-primary;
 			color: $brand-white;
 			text-transform: uppercase;
-			border-top-right-radius: 100px;
-			border-bottom-right-radius: 100px;
+			// border-top-right-radius: 100px;
+			// border-bottom-right-radius: 100px;
 			@include transition(.3s);
 
 			&:hover, &:active, &:focus {

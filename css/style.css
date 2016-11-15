@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-blend-mode: multiply; }
   @media screen and (max-width: 768px) {
     #gtco-aside {
-      background-image: url(../images/working-table.jpg);
+      background-image: url(../images/digi-header.jpg);
       width: 100%;
       position: relative;
       height: 200px; } }
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%; }
   .simply-countdown-one .simply-section {
     float: left;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-bottom: 10px;
     text-align: center; }
     .simply-countdown-one .simply-section:last-child {
@@ -180,25 +180,22 @@ h1, h2, h3, h4, h5, h6, figure {
       box-shadow: none !important;
       padding-right: 150px;
       padding-left: 30px;
+      margin-bottom: 20px;
       border: none !important;
       background: #eeeeee;
       height: 72px;
       font-size: 18px; }
     #gtco-subscribe .form-group .btn {
-      width: 100px;
-      position: absolute;
-      right: 0;
-      top: 0;
+      width: 200px;
       font-weight: 700;
       height: 72px;
       font-size: 14px;
       color: #fff;
       border: none !important;
+      border-radius: 100px;
       background: #8a8d09;
       color: #fff;
       text-transform: uppercase;
-      border-top-right-radius: 100px;
-      border-bottom-right-radius: 100px;
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s; }
